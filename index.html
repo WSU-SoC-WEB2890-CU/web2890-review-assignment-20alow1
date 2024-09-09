@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Webby</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <meta name="description" content="TODO: A starter project for ...">
+  <link rel="stylesheet" href="./stylesheets/main.scss">
+</head>
+
+<body>
+
+  <!-- THE NAVBAR SECTION -->
+  <nav class="navbar navbar-expand-lg menu shadow fixed-top" id="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="images/webbyclear2.png" alt="Webby logo image" id="logo">
+      </a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-list"></i>
+        <!-- <span class="navbar-toggler-icon" id="hamburger"></span> -->
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <a class="btn-rounded rounded-pill btn text-center" href="#get-started" role="button" id="startbutton2">
+          Get Started
+        </a>
+        <ul class="navbar-nav navbar-nav-scroll">
+          <li class="nav-item text-center"><a class="nav-link fw-bold" href="#home" aria-current="page">Home</a></li>
+          <li class="nav-item text-center"><a class="nav-link fw-bold" href="#services">Services</a></li>
+          <li class="nav-item text-center"><a class="nav-link fw-bold" href="#testimonials">Testimonials</a></li>
+          <li class="nav-item text-center"><a class="nav-link fw-bold" href="#portfolio">Portfolio</a></li>
+          <li class="nav-item text-center"><a class="nav-link fw-bold" href="#faq">FAQ</a></li>
+          <li class="nav-item text-center"><a class="nav-link fw-bold" href="#about-me">About Me</a></li>
+          <li class="nav-item text-center"><a class="nav-link fw-bold" href="#useful-resources">Resources</a></li>
+          <li class="nav-item text-center"><a class="nav-link fw-bold" href="#contact">Contact</a></li>
+        </ul>
+        <a class="btn-rounded rounded-pill btn text-center" href="#get-started" role="button" id="startbutton">
+          Get Started
+        </a>
+
+        <!-- <button type="button" class="rounded-pill btn-rounded">
+          Get Started
+          <span>
+            <i class="bi bi-telephone-fill"></i>
+          </span>
+        </button> -->
+      </div>
+    </div>
+  </nav>
+
+  <!-- THE INTRO SECTION -->
+  <section id="home" class="intro-section">
+    <div class="container">
+      <div class="row align-items-center text-white">
+        <div class="col-md-6 intros text-start">
+          <h1 class="display-2">
+            <span class="display-2--intro">Welcome to Webby!</span>
+            <span class="display-2--description lh-base fw-bold">
+              I'm your friendly neighborhood web designer, Avrey Semadeni, and I'm committed to creating visually pleasing websites that meet your needs.
+            </span>
+          </h1>
+          <button type="button" class="rounded-pill btn-rounded">Get in Touch
+            <span><i class="bi bi-arrow-right"></i></span>
+          </button>
+        </div>
+        <div class="col-md-6 intros text-end">
+          <div class="video-box">
+            <img src="images/intro1000.png" alt="video illustration" class="img-fluid">
+            <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle">
+              <span>
+                <i class="bi bi-play-circle"></i>
+              </span>
+              <span class="border-animation border-animation--border-1"></span>
+              <span class="border-animation border-animation--border-2"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#ffffff" fill-opacity="1"
+        d="M0,160L48,176C96,192,192,224,288,208C384,192,480,128,576,133.3C672,139,768,213,864,202.7C960,192,1056,96,1152,74.7C1248,53,1344,107,1392,133.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+
+  <!-- THE SERVICES SECTION -->
+  <section id="services" class="services">
+    <div class="container">
+      <div class="row text-center">
+        <h1 class="display-3 fw-bold">My Services</h1>
+        <div class="heading-line mb-1"></div>
+      </div>
+      <div class="row pt-2 pb-2 mt-0 mb-3 row-cols-2">
+        <div class="col border-right">
+          <div class="bg-white p-3">
+            <h3 class="fw-bold text-end">
+              Let's get to it...
+            </h3>
+          </div>
+        </div>
+        <div class="">
+          <div class="bg-white p-3">
+            <h3 class="fw-bold text-start">
+              What can I offer you?
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+          <div class="services__content">
+            <div class="icon d-block bi bi-laptop"></div>
+            <h3 class="display-3--title mt-1">Website Development</h3>
+            <p class="lh-lg">
+              My main service is website design and production. I'm here to build your dreams and provide you with a clean, professional website that your users will love.
+            </p>
+            <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+              <span><i class="bi bi-arrow-right"></i></span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+          <div class="services__pic">
+            <img src="images/webdev1000.png" alt="web development illustration" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start" id="camera1">
+          <div class="services__pic">
+            <img src="images/photos1000.png" alt="camera illustration" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+          <div class="services__content">
+            <div class="icon d-block bi bi-camera-fill"></div>
+            <h3 class="display-3--title mt-1">Photos</h3>
+            <p class="lh-lg">
+              Sometimes it can be hard to find nice photos for your website... that's why I'm here to help! Here's how it works: You tell me what you'd like photos of&ast; and I'll use my photography skills to make your website look even more professional.<br>
+              &ast;Within reason... I'm not driving to Alaska
+            </p>
+            <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+              <span><i class="bi bi-arrow-right"></i></span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start" id="camera2">
+          <div class="services__pic">
+            <img src="images/photos1000.png" alt="camera illustration" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+          <div class="services__content">
+            <div class="icon d-block bi bi-brush"></div>
+            <h3 class="display-3--title mt-1">Icons and Graphics</h3>
+            <p class="lh-lg">
+              Real-life photos aren't always the best fit for your website, so I also provide the option to create graphics to decorate your website instead. I also create custom icons if you don't like the standard ones.
+            </p>
+            <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+              <span><i class="bi bi-arrow-right"></i></span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+          <div class="services__pic">
+            <img src="images/graphic1000.png" alt="mountain illustration" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE COMPANIES SECTION -->
+  <!-- <section id="companies" class="companies">
+    <div class="container">
+      <div class="row text-center">
+        <h1 class="display-3 fw-bold">Trusted by</h1>
+        <div class="heading-line mb-5"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-lg-2">
+          <div class="companies__logo-box shadow-sm">
+            <img src="images/companies/company-1.png" alt="Company 1 logo" title="Company 1 Logo" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="companies__logo-box shadow-sm">
+            <img src="images/companies/company-2.png" alt="Company 2 logo" title="Company 2 Logo" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="companies__logo-box shadow-sm">
+            <img src="images/companies/company-3.png" alt="Company 3 logo" title="Company 3 Logo" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="companies__logo-box shadow-sm">
+            <img src="images/companies/company-4.png" alt="Company 4 logo" title="Company 4 Logo" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="companies__logo-box shadow-sm">
+            <img src="images/companies/company-5.png" alt="Company 5 logo" title="Company 5 Logo" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="companies__logo-box shadow-sm">
+            <img src="images/companies/company-6.png" alt="Company 6 logo" title="Company 6 Logo" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- THE TESTIMONIALS SECTION -->
+  <section id="testimonials" class="testimonials">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+      </path>
+    </svg>
+    <div class="container">
+      <div class="row text-center text-white">
+        <h1 class="display-3 fw-bold">Testimonials</h1>
+        <hr style="width: 100px; height: 3px; " class="mx-auto">
+        <p class="lead pt-1">What my clients are saying</p>
+      </div>
+
+      <div class="row align-items-center">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="testimonials__card">
+                <p class="lh-lg">
+                  <i class="bi bi-blockquote-left"></i>
+                  Avrey is truly wonderful! She made my products look so good with the photos she took, and made it easy for people to purchase them on the website she designed for me.
+                  <i class="bi bi-blockquote-right"></i>
+                <div class="ratings p-1">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                </p>
+              </div>
+              <div class="testimonials__picture">
+                <img src="images/testimonials/client-1.jpg" alt="client-1 picture" class="rounded-circle img-fluid">
+              </div>
+              <div class="testimonials__name">
+                <h3>Patrick Muriungi</h3>
+                <p class="fw-light">CEO & Founder of ABC</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonials__card">
+                <p class="lh-lg">
+                  <i class="bi bi-blockquote-left"></i>
+                  I really enjoyed having Avrey design my website. She listened to my needs and wants very well, and it showed in the final product!
+                  <i class="bi bi-blockquote-right"></i>
+                <div class="ratings p-1">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                </p>
+              </div>
+              <div class="testimonials__picture">
+                <img src="images/testimonials/client-2.jpg" alt="client-2 picture" class="rounded-circle img-fluid">
+              </div>
+              <div class="testimonials__name">
+                <h3>Joy Marete</h3>
+                <p class="fw-light">Owner of personal quilting business</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonials__card">
+                <p class="lh-lg">
+                  <i class="bi bi-blockquote-left"></i>
+                  Oh my goodness, Avrey is amazing! I needed a website to organize all my teaching resources for my students, and she made a website that was so easy to use! Her little graphics also made it much more fun for my students.
+                  <i class="bi bi-blockquote-right"></i>
+                <div class="ratings p-1">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                </p>
+              </div>
+              <div class="testimonials__picture">
+                <img src="images/testimonials/client-3.jpg" alt="client-3 picture" class="rounded-circle img-fluid">
+              </div>
+              <div class="testimonials__name">
+                <h3>ClaireBelle Zawadi</h3>
+                <p class="fw-light">Teacher</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonials__card">
+                <p class="lh-lg">
+                  <i class="bi bi-blockquote-left"></i>
+                  I was very pleased with Avrey's work. I started my own business, and needed a website to get off the ground. She produced a nice website, and the photos she took of our facilities were very professional.
+                  <i class="bi bi-blockquote-right"></i>
+                <div class="ratings p-1">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                </p>
+              </div>
+              <div class="testimonials__picture">
+                <img src="images/testimonials/client-4.jpg" alt="client-4 picture" class="rounded-circle img-fluid">
+              </div>
+              <div class="testimonials__name">
+                <h3>Uhuru Kenyatta</h3>
+                <p class="fw-light">Entrepreneur</p>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <button class="btn btn-outline-light bi bi-arrow-left" type="button"
+              data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            </button>
+            <button class="btn btn-outline-light bi bi-arrow-right" type="button"
+              data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 300">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+
+  <!-- THE PORTFOLIO -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="row text-center mt-5">
+        <h1 class="display-3 fw-bold text-capitalize">Latest work</h1>
+        <div class="heading-line"></div>
+        <p class="lead">
+          Check out some of my past projects to see what my work is like!
+        </p>
+      </div>
+      <div class="row mt-5 mb-4 g-3 text-center">
+        <div class="col-md-12">
+          <button class="btn btn-outline-primary" type="button">All</button>
+          <button class="btn btn-outline-primary" type="button">websites</button>
+          <button class="btn btn-outline-primary" type="button">Photos</button>
+          <button class="btn btn-outline-primary" type="button">Graphics</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/Portfolio/site1-1.png" alt="portfolio website number one" title="portfolio 1 picture"
+              class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>Personal Website</h4>
+                <p>Website</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/Portfolio/painting.jpg" alt="portfolio graphic of a dahlia flower" title="portfolio 2 picture"
+              class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>Dahlia Digital Painting</h4>
+                <p>Graphic</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/Portfolio/site2-1.png" alt="portfolio website number two" title="portfolio 3 picture"
+              class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>Information Website</h4>
+                <p>Website</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/Portfolio/lakebranchoptimized.jpg" alt="portfolio photo of a lake" title="portfolio 4 picture"
+              class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>Peaceful Lake</h4>
+                <p>Photo</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/Portfolio/carlightsoptimized.jpg" alt="portfolio photo of zooming cars" title="portfolio 5 picture"
+              class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>Cars At Night</h4>
+                <p>Photo</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/Portfolio/fenceoptimized.jpg" alt="portfolio closeup photo of a fence" title="portfolio 6 picture"
+              class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>Closeup Of A Fence</h4>
+                <p>Photo</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/Portfolio/site3-1.png" alt="portfolio website number three" title="portfolio 7 picture"
+              class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>Business Website</h4>
+                <p>Website</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/Portfolio/pathoptimized.jpg" alt="portfolio photo of fall trees on a path" title="portfolio 8 picture"
+              class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>The Path To Autumn</h4>
+                <p>Photo</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/Portfolio/iconwifi.jpg" alt="portfolio wifi icon design" title="portfolio 9 picture"
+              class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>Wifi Icon</h4>
+                <p>Graphic</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- THE FAQ SECTION -->
+   <section id="faq" class="faq">
+    <div class="container">
+      <div class="row text-center">
+        <h1 class="display-3 fw-bold text-uppercase">faq</h1>
+        <div class="heading-line"></div>
+        <p class="lead">Frequently asked questions; get knowledge before committing</p>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item shadow mb-3">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  How much do you charge for a website?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  I charge $50 per hour that I spend working on your website. This includes any additional time to take photos or design graphics for your website. So the total cost of your website will vary depending on how complex of a project it is.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item shadow mb-3">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  How long does it take to build a website?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  The time it takes to finish your website will depend on how complex it is. If it's only one page, it may take 1-2 weeks. If it's a multiple-page website, it may take 1-4 months. It's best to contact me several months before you want your website launched so I have time to finish it, as I may have multiple projects I'm working on. However, if you need something faster, we may be able to work something out at a higher hourly cost.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item shadow mb-3">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  What if I don't like the website?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Before I start coding your website, I will design a mockup of what it will look like, and I can walk through it with you. If there's anything you don't like at that point, you should let me know and I will adjust it to your liking. The more you communicate with me early on, the more problems we can avoid later (and less you have to pay). I will revise it as much as needed to get the website looking and functioning the way you want it to. If you still decide you don't like it and don't want to continue with me, I'll still charge you for the hours I spent working on it.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item shadow mb-3">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Will you write the text for me?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  I will write some basic text for you, like links and headers, but the majority of the text will need to come from you, if possible. I work with many customers who are specialized in areas I am not, so if I tried writing the text, it would take more time, money, and I'd be contacting you very often to check what I wrote. If you don't feel you are capable of writing the text, we can talk about hiring a separate copywriter to write the content for you.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE GET STARTED SECTION -->
+  <section id="get-started" class="get-started">
+    <div class="container mb-4 pt-4">
+      <div class="row text-center">
+        <h1 class="display-3 fw-bold text-capitalize">Get Started</h1>
+        <div class="heading-line"></div>
+        <p class="lh-lg">
+          Like what you see? Fill out the form below to get started on your project!
+        </p>
+      </div>
+
+      <div class="row text-white">
+        <div class="col-12 col-lg-6 shadow p-3" id="satisfaction">
+          <div class="cta-info w-100">
+            <h4 class="display-4 fw-bold">100% Satisfaction Guaranteed</h4>
+            <p class="lh-lg">
+              I pride myself on my customer satisfaction. If there's anything you're not satisfied with, let me know and I'll do my best to fix it!
+            </p>
+            <h3 class="display-3--brief">What will be the next steps?</h3>
+            <ul class="cta-info__list">
+              <li>You'll prepare the website proposal.</li>
+              <li>We'll discuss it together.</li>
+              <li>You'll sign a service agreement.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 bg-white shadow p-3">
+          <div class="form w-100 pb-2">
+            <h4 class="display-3--title mb-5" id="startproject">start your project</h4>
+            <form action="#" class="row">
+              <div class="col-lg-6 col-md mb-3">
+                <input type="text" placeholder="First Name" id="inputFirstName"
+                  class="shadow form-control form-control-lg" required>
+              </div>
+              <div class="col-lg-6 col-md mb-3">
+                <input type="text" placeholder="Last Name" id="inputLastName"
+                  class="shadow form-control form-control-lg" required>
+              </div>
+              <div class="col-lg-12 mb-3">
+                <input type="email" placeholder="Email address" id="inputEmail"
+                  class="shadow form-control form-control-lg" required>
+              </div>
+              <div class="col-lg-12 mb-3">
+                <textarea name="message" placeholder="Describe your project" id="message" rows="8"
+                  class="shadow form-control form-control-lg" required></textarea>
+              </div>
+              <div class="text-center d-grid mt-1">
+                <button type="button" class="btn rounded-pill pt-3 pb-3">
+                  submit
+                  <i class="bi bi-send"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- THE ABOUT ME SECTION -->
+  <section id="about-me">
+    <div class="container mb-5">
+      <div class="row text-center pt-5">
+        <h1 class="display-3 fw-bold text-capitalize">About Me</h1>
+        <div class="heading-line"></div>
+        <p class="lead">
+          Get to know your web designer a little better
+        </p>
+      </div>
+      <div class="card shadow mb-5 mt-5">
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="/images/avrey2.jpg" class="img-fluid rounded-start" alt="Photo of Avrey your web designer" id="avrey">
+          </div>
+          <div class="col-lg-8">
+            <div class="card-body m-2">
+              <h3 class="card-title text-capitalize">Hi there, my name is Avrey</h3><br>
+              <p class="card-text fs-5">I'm the proud owner of this website, a sewing machine, and a bookshelf overflowing with books. I love hiking, camping, and backpacking in the great outdoors with my husband and other family that choose to join us on our journeys.<br><br>I also enjoy crafty things like sewing, crocheting, and card-making, though usually those become solo activities...<br><br>As you can see from my website, I have dipped my fingers into the technology world as well, whether it's playing my favorite video games, providing IT services, or designing websites. I got into website design when I took a beginner class in high school, and after a couple reroutes, decided that's what I wanted to study in college. I've grown a love for creating websites that will help people achieve their goals easily and efficiently!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE USEFUL RESOURCES SECTION -->
+  <section id="useful-resources" class="mt-5 mb-5">
+    <div class="container-fluid">
+      <div class="row text-center pt-5">
+        <h1 class="display-3 fw-bold text-capitalize">Useful Resources</h1>
+        <div class="heading-line"></div>
+      </div>
+      <div class="row mt-5 justify-content-evenly gy-4">
+        <div class="col-sm-12 col-md-3 card bg-dark text-white resources-card">
+          <img src="images/feedback.jpg" class="card-img resources-img" alt="Two ladies sitting with a computer">
+          <a href="https://www.responsival.com/post/9-tips-for-providing-your-web-designer-better-feedback#:~:text=Tip%201%3A%20Be%20Specific%20When%20Providing%20Feedback&text=Design%20is%20subjective.,dislike%20throughout%20the%20design%20process." target="_blank" class="card-img-overlay">
+            <h6 class="card-title">9 Tips to Give Better Feedback to Your Designer</h6>
+          </a>
+        </div>
+        <div class="col-sm-12 col-md-3 card bg-dark text-white resources-card">
+          <img src="images/communicate.jpg" class="resources-img" alt="A hand pointing at a computer screen">
+          <a href="https://www.bareknuckle-branding.com/web-design-reno/communicate-with-your-web-designer/" target="_blank" class="card-img-overlay">
+            <h6 class="card-title">How to Communicate With Your Web Designer</h6>
+          </a>
+        </div>
+        <div class="col-sm-12 col-md-3 card bg-dark text-white resources-card">
+          <img src="images/8tips.jpg" class="card-img resources-img" alt="A man and woman at a computer high fiving">
+          <a href="https://www.websitebuilderexpert.com/designing-websites/web-designer-tips/" target="_blank" class="card-img-overlay">
+            <h6 class="card-title">8 Tips for Working With a Web Designer</h6>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- THE FOOTER SECTION -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+          <div class="contact-box__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call" viewBox="0 0 24 24"
+              stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+              <path d="M15 7a2 2 0 0 1 2 2" />
+              <path d="M15 3a6 6 0 0 1 6 6" />
+            </svg>
+          </div>
+          <div class="contact-box__info">
+            <a href="#" class="contact-box__info--title">801-626-1234</a>
+            <p class="contact-box__info--subtitle"> Mon-Fri 9am-6pm</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+          <div class="contact-box__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-opened" viewBox="0 0 24 24"
+              stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <polyline points="3 9 12 15 21 9 12 3 3 9" />
+              <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
+              <line x1="3" y1="19" x2="9" y2="13" />
+              <line x1="15" y1="13" x2="21" y2="19" />
+            </svg>
+          </div>
+          <div class="contact-box__info">
+            <a href="#" class="contact-box__info--title">info@company.com</a>
+            <p class="contact-box__info--subtitle">Online support</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+          <div class="contact-box__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" viewBox="0 0 24 24"
+              stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <line x1="18" y1="6" x2="18" y2="6.01" />
+              <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
+              <polyline points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15" />
+              <line x1="9" y1="4" x2="9" y2="17" />
+              <line x1="15" y1="15" x2="15" y2="20" />
+            </svg>
+          </div>
+          <div class="contact-box__info">
+            <a href="#" class="contact-box__info--title">Ogden, Utah</a>
+            <p class="contact-box__info--subtitle">84405, USA</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-sm" style="background-color: #212121;">
+      <div class="container">
+        <div class="row py-4 text-center text-white">
+          <div class="col-lg-12 col-md-6">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-github"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="container mt-5">
+      <div class="row text-white justify-content-center mt-3 pb-3">
+        <div class="col-12 col-sm-6 col-lg-6 mx-auto">
+          <h5 class="text-capitalize fw-bold">Webby</h5>
+          <hr class="bg-secondary d-inline-block mb-4" style="width: 100%; height: 2px;">
+          <p class="lh-lg">
+            Your friendly neighborhood web designer committed to provide visually pleasing and useful websites to suit your needs.
+          </p>
+        </div> -->
+        <!-- <div class="col-12 col-sm-6 col-lg-3 mb-4 mx-auto">
+          <h5 class="text-capitalize fw-bold">Useful Links</h5>
+          <hr class="bg-secondary d-inline-block mb-4" style="width: 100%; height: 2px;">
+          <ul class="list-inline company-list">
+            <li><a href="https://www.responsival.com/post/9-tips-for-providing-your-web-designer-better-feedback#:~:text=Tip%201%3A%20Be%20Specific%20When%20Providing%20Feedback&text=Design%20is%20subjective.,dislike%20throughout%20the%20design%20process." target="_blank">9 Tips to Give Better Feedback to Your Designer</a></li>
+            <li><a href="https://www.bareknuckle-branding.com/web-design-reno/communicate-with-your-web-designer/" target="_blank">How to Communicate With Your Web Designer</a></li>
+            <li><a href="https://www.websitebuilderexpert.com/designing-websites/web-designer-tips/" target="_blank">8 Tips for Working With a Web Designer</a></li>
+          </ul>
+        </div> -->
+        <!-- <div class="col-12 col-sm-6 col-lg-3 mb-4 mx-auto">
+          <h5 class="text-capitalize fw-bold">Privacy Policy</h5>
+          <hr class="bg-secondary d-inline-block mb-4" style="width: 100%; height: 2px;">
+          <ul class="list-inline company-list">
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div> -->
+        <!-- <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+          <h5 class="text-capitalize fw-bold">Contact</h5>
+          <hr class="bg-secondary d-inline-block mb-4" style="width: 100%; height: 2px;">
+          <ul class="list-inline company-list">
+            <li><a href="#">Email</a></li>
+            <li><a href="#">Phone</a></li>
+            <li><a href="#">Office Location</a></li>
+          </ul>
+        </div> -->
+      <!-- </div>
+    </div> -->
+
+    <div class="footer-bottom pt-5 pb-5">
+      <div class="container">
+        <div class="row text-center text-white">
+          <div class="col-12">
+            <div class="footer-bottom__copyright">
+              &COPY; Copyright 2024 <a href="#">Webby</a> | Created by <a href="#"
+                target="_blank">Avrey Semadeni</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="shadow rounded-pill back-to-top">
+    <i class="bi bi-chevron-up"></i>
+  </a>
+
+  <script type="module" src="./javascripts/main.js"></script>
+</body>
+
+</html>

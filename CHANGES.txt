@@ -1,1 +1,24 @@
-TODO: List here all the changes you made to given template to adapt it to your needs
+Note: Several of my changes were not in the custom.scss file because I wanted it organized according to what item it was... ex. footer.scss.
+
+Changes:
+1. I took out the "Trusted By" section because I've formatted the website as if I am a freelancer web designer. It's unlikely that I would be working with any big companies like Google, Amazon, etc. Any companies I would be working with likely wouldn't be well-known enough for this section to have impact with the users. For my needs and scope of influence, the testimonials section should be sufficient to provide potential clients with the reassurance they need.
+
+2. I changed the phone call button in the navigation to link to the Get Started section instead so users can quickly jump there at any time. Having this different from the rest of the navigation links makes it stand out more and hopefully would make it easier for the clients to sign up at any time (without having to scroll through the whole website)
+
+3. The nav links go to the correct sections when clicked on. It makes it much easier to jump around the page instead of scrolling all the way down for something you wanted. I also adjusted the padding for some elements to prevent the content headers from being covered by the fixed navigation bar.
+
+4. I changed the nav links to all be solid black, so they are easier to see. I also changed the hover effect to be white with an underline for accessibility. I also made the links bold to make them easier to see.
+
+5. I changed some of the button hovers to be a blue gradient instead of the default pink, to provide more contrast when they are hovered over.
+
+6. I took out some of the sections in the footer and made it smaller. It feels less daunting now and with the website being as small as it is, it doesn't need a large footer with lots of links.
+
+7. I added an object fit to the portfolio images so they didn't get squished or enlargened as the screen size changes...I'd rather cut some edges off.
+
+8. I made the Get started section the contrasting color instead of the primary website color to make it stand out more as this is what I will want users to interact with most. I chose to leave the position where it is so clients don't feel pressured into signing up before they've read about what I offer and the projects I've done.
+
+9. I switched the Portfolio and FAQ sections so the portfolio is right after the testimonials where they are testifying about the work I've done. Now the FAQ is right before the Get started section, which I feel is a better flow.
+
+10. I added a little more styling to the navbar on smaller screens, now the users can see what areas are clickable, and it looks a little nicer as well. I also made it scrollable so you can access all the items.
+
+I know I changed more little things here and there... but these ^ were the more major changes. The layout of the website was actually pretty close to what I needed for my idea...regardless it still took a bit of time.

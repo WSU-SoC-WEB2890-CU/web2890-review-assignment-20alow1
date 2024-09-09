@@ -29,11 +29,11 @@
   }
 
   &:hover {
-    @include gradient;
+    @include gradient2;
     color: $white;
 
     span {
-      background-color: rgba($orange, 1.0);
+      background-color: rgba($blue, 1.0);
     }
   }
 }

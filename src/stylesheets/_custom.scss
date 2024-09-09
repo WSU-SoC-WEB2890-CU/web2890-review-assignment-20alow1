@@ -1,11 +1,13 @@
 // THEME COLORS 
-$teal-dark:    #0d503c;
-$teal-light:  #20c997;
-$orange: #fd7e14;
-$footer: #151414;
+$pink-light:   #e8a5dd;
+$pink-dark:  #c951b5;
+$blue: #2a3181;
+$blue-light: #747ee7;
+$footer: #151415;
 
-$primary: $teal-dark;
-$secondary: $teal-light;
+$primary: $pink-dark;
+$secondary: $pink-light;
+$info: $blue;
 
 // ACCORDION OVERRIDES
 $accordion-padding-y: 1.5rem;
@@ -15,5 +17,118 @@ $accordion-icon-active-color: $secondary;
 $accordion-button-icon:         url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-color}'><path fill-rule='evenodd' d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z'/> <path d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/></svg>");
 $accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-active-color}'><path fill-rule='evenodd' d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z'/>  <path d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/></svg>");
 
+
+// Logo Resize
+#logo {
+    width: 80px;
+}
+
+
+// Get Started Button Padding Fix
+#startbutton, #startbutton2 {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+#startbutton2, #camera2 {
+    display: none;
+}
+
+// Fix navbar cutting off sections when link clicked on
+#faq, #services, #about-me, #useful-resources {
+    padding-top: 80px;
+}
+
+// Intro color change
+.display-2 {
+    color: black;
+}
+
+// Resources formatting
+.resources-img {
+    opacity: 0.5;
+    object-fit: scale-down;
+    width: 100%;
+}
+
+#useful-resources a {
+    text-decoration: none;
+    color: white;
+    align-content: center;
+    text-align: center;
+    &:hover {
+        background-color: rgba(black, 0.6);
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
+
+// Other
+#contact, #get-started {
+    margin-top: 6rem;
+}
+
+#startproject {
+    background-image: linear-gradient(to right, $blue, $blue-light);
+}
+
+#logo:hover {
+    filter: brightness(70%);
+}
+
+#avrey {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+// Breakpoints (Couldn't get Sass mixins to work even in main.scss...)
+//Sm and under
+@media only screen and (max-width: 768px) {
+    #useful-resources a h6 {
+        font-size: 2rem;
+    }
+
+    #home {
+        margin-top: 3rem;
+    }
+
+    #camera2 {
+        display: block;
+    }
+
+    #camera1 {
+        display: none;
+    }
+}
+
+//Md and under
+@media only screen and (max-width: 991px) {
+    .menu li a {
+        border: 0.1rem solid white;
+        border-radius: 2rem;
+        padding: 3rem;
+        margin: .5rem 0;
+        background-color: $blue;
+    }
+
+    #startbutton {
+        display: none;
+    }
+
+    #startbutton2 {
+        display: block;
+    }
+}
+
+// Lg and up
+@media only screen and (min-width: 992px) {
+    #useful-resources a h6 {
+        font-size: 1.5rem;
+    }
+}
+
+
+
 @import "bootstrap/scss/bootstrap.scss";
-@import "bootstrap-icons/font/bootstrap-icons.scss"
+@import "bootstrap-icons/font/bootstrap-icons.scss";

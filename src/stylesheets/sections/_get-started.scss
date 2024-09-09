@@ -28,6 +28,10 @@
   }
 }
 
+#satisfaction {
+  @include gradient2;
+}
+
 // FORM CONTENT 
 .form {
   padding: 3rem;
@@ -36,6 +40,12 @@
     border: none;
     color: $white;
     text-transform: capitalize;
+    @include gradient2;
+
+    &:hover {
+      @include gradient;
+      color: $black;
+    }
 
     a {
       color: $white;
